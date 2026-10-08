@@ -1,0 +1,15 @@
+<?php
+
+// Copia este archivo como config.local.php en el servidor.
+// config.local.php está ignorado por Git y nunca debe contenerse en el repositorio público.
+
+define('APP_NAME', 'VIVA TURNOS');
+define('BASE_URL', '');
+
+define('DB_HOST', 'YOUR_DB_HOST');
+define('DB_NAME', 'YOUR_DB_NAME');
+define('DB_USER', 'YOUR_DB_USERNAME');
+define('DB_PASS', 'YOUR_DB_PASSWORD');
+define('DB_PORT', 3306);
+
+define('INITIAL_USER_PASSWORD', 'YOUR_INITIAL_USER_PASSWORD');
